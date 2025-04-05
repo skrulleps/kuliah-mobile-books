@@ -109,5 +109,16 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 ---
 
 ### Praktikum 8
+#### Soal 15 
+- Done
+
+#### Soal 16
+- Apa yang terjadi ketika tombol diklik? Warna background di layar pertama berubah sesuai tombol yang diklik di layar kedua.
+-  Kenapa bisa begitu? Karena Navigator.pop(context, color) mengembalikan nilai color ke layar sebelumnya (yang sedang await warna tersebut), lalu dipakai untuk update background dengan setState().
+    <img src="screen-docs/gif/W5-S16.gif" alt="Soal 16" width="400"/>
+
+---
+
+### Praktikum 9
 
 
