@@ -51,3 +51,10 @@ samples, guidance on mobile development, and a full API reference.
 - `Completer` merupakan objek dalam `Future` yang cara kerjanya mirip dengan `async/await`. Bedanya ada pada penyelesaian akhir: `Completer` harus diselesaikan secara manual dengan memanggil `completer.complete()`, sedangkan `async/await` cukup menggunakan `return`.
 
     <img src="screen-docs/gif/W5-S5.gif" alt="Soal 5" width="400"/>
+
+### Soal 6
+- try-catch adalah mekanisme penanganan error (error handling) dalam pemrograman.
+Kode yang berada di dalam blok try akan dicoba dijalankan.
+Jika tidak ada error, maka semuanya berjalan normal.
+Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok catch, dan kode di dalam catch akan dijalankan sebagai respon atas error tersebut.
+    <img src="screen-docs/gif/W5-S6.gif" alt="Soal 6" width="400"/>
