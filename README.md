@@ -94,4 +94,20 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 - Kita tidak mendapatkan koordinat GPS ketika menjalankan di browser karena geolocator hanya mendukung platform moile (Android/IOS), Browser tidak memiliki akses langsung ke permission native seperti GPS yg bisa digunakan di mobile
    <img src="screen-docs/gif/W5-S12.gif" alt="Soal 12" width="400"/>
 
+--- 
+
+### Praktikum 7
+#### Soal 13
+- Ya, terdapat perbedaan pada UI-nya.
+  Pada praktikum sebelumnya (Praktikum 6), UI menampilkan lokasi dengan cara memanggil setState() setelah mendapatkan data dari Future. Kita harus mengatur manual bagaimana tampilan saat loading, sukses, atau error, serta mengatur myPosition secara eksplisit.
+  <img src="screen-docs/gif/W5-S13.gif" alt="Soal 13" width="400"/>
+
+
+
+#### Soal 14
+
+---
+
+### Praktikum 8
+
 
