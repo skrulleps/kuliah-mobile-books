@@ -33,3 +33,12 @@ samples, guidance on mobile development, and a full API reference.
 </li>
 <ul></p>
 <img src="screen-docs/gif/W5-S3.gif" alt="Soal 3" width="400"/>
+
+<!-- Soal 4 -->
+<h4>Soal 4</h4>
+<p><ul>
+<li>Ketiga Fungsi pada Langkah 1 merupakan fungsi asynchronous yg masing-masing menunda eksekusi selama 3 detik. Setelah menunda selama waktu yg telah ditentukan, fungsi mengembalikan nilai 1, 2, 3 dari masing-masing fungsi.</li>
+<li>Pada Langkah ke 2, membuat fugsi count() untuk memanggil ketiga fungsi satu persatu denggan async/await. setelah nilai didapat, ketiganya dijumlahkan hingga menghasilkan nilai 6. Lalu, setstate() dipanggil untuk mengubah UI dan menampilkan hasilnya
+</li>
+<ul></p>
+<img src="screen-docs/gif/W5-S4.gif" alt="Soal 4" width="400"/>
