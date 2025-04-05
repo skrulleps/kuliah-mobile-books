@@ -76,6 +76,7 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 
 ### Praktikum 5
 #### Soal 9
+ <img src="screen-docs/gif/W5-S9.gif" alt="Soal 9" width="400"/>
 
 
 #### Soal 10

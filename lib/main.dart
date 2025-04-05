@@ -46,7 +46,20 @@ class _FuturePageState extends State<FuturePage> {
               const Spacer(),
               ElevatedButton(
                   onPressed: () {
-                    returnFG();
+                    // Praktikum 5
+                    returnError().then((value) {
+                      setState(() {
+                        result = 'sukses';
+                      });
+                    }).catchError((onError){
+                      setState(() {
+                        result = onError.toString();
+                      });
+                    // ignore: avoid_print
+                    }).whenComplete(() => print('Kelar nih'));
+
+                    // Praktikum 4
+                    // returnFG();
 
                     // getNumber().then((value) {
                     //   setState(() {
@@ -161,5 +174,11 @@ class _FuturePageState extends State<FuturePage> {
     //     result = 'An error occurred';
     //   });
     // });
+  }
+
+  // Praktikum 5
+  Future<String> returnError() async {
+    await Future.delayed(Duration(seconds: 1));
+    throw Exception('Error nehh!!!');
   }
 }
