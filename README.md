@@ -84,4 +84,14 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 - Langkah 4, Menangani eror di dalam fungsi langsung, lebih fleksibel, ketika kode telah selesai dijalankan gunakan 'finally' langsung di dalam fungsi
   <img src="screen-docs/gif/W5-S10.gif" alt="Soal 10" width="400"/>
 
+---
+
+### Praktikum 6
+#### Soal 11
+- Done
+
+#### Soal 12 
+- Kita tidak mendapatkan koordinat GPS ketika menjalankan di browser karena geolocator hanya mendukung platform moile (Android/IOS), Browser tidak memiliki akses langsung ke permission native seperti GPS yg bisa digunakan di mobile
+   <img src="screen-docs/gif/W5-S12.gif" alt="Soal 12" width="400"/>
+
 
