@@ -43,7 +43,18 @@ class _FuturePageState extends State<FuturePage> {
           child: Column(
             children: [
               const Spacer(),
-              ElevatedButton(onPressed: () {}, child: const Text('Go')),
+              ElevatedButton(
+                  onPressed: () {
+                    setState(() {});
+                    getData().then((value) {
+                      result = value.body.toString().substring(0, 450);
+                      setState(() {});
+                    }).catchError((_) {
+                      result = 'An error occurred';
+                      setState(() {});
+                    });
+                  },
+                  child: const Text('Go')),
               const Spacer(),
               Text(result),
               const CircularProgressIndicator(),
