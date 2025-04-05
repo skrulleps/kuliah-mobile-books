@@ -120,5 +120,14 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 ---
 
 ### Praktikum 9
+#### Soal 17
+- Apa yang terjadi ketika button diklik? 
+  Muncul dialog (AlertDialog) dengan tiga pilihan warna. Saat salah satu tombol diklik, dialog tertutup, dan background berubah sesuai warna yang dipilih.
+- Mengapa bisa seperti itu?
+  Karena await showDialog() menunggu sampai user memilih opsi. Warna diset saat user klik, dan setelah dialog tertutup, setState() dipanggil untuk memperbarui UI.
+
+  <img src="screen-docs/gif/W5-S17.gif" alt="Soal 17" width="400"/>
+
+
 
 
