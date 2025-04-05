@@ -102,9 +102,9 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
   Pada praktikum sebelumnya (Praktikum 6), UI menampilkan lokasi dengan cara memanggil setState() setelah mendapatkan data dari Future. Kita harus mengatur manual bagaimana tampilan saat loading, sukses, atau error, serta mengatur myPosition secara eksplisit.
   <img src="screen-docs/gif/W5-S13.gif" alt="Soal 13" width="400"/>
 
-
-
 #### Soal 14
+- Tidak ada perubahan UI jika data berjalan tanpa adanya masalah. Meskipun jika nnti data tidak dapat ditampilkan, maka hanya akan ada perubahan text yakni text error
+   <img src="screen-docs/gif/W5-S14.gif" alt="Soal 14" width="400"/>
 
 ---
 
