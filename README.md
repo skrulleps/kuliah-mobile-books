@@ -57,4 +57,27 @@ samples, guidance on mobile development, and a full API reference.
 Kode yang berada di dalam blok try akan dicoba dijalankan.
 Jika tidak ada error, maka semuanya berjalan normal.
 Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok catch, dan kode di dalam catch akan dijalankan sebagai respon atas error tersebut.
-    <img src="screen-docs/gif/W5-S6.gif" alt="Soal 6" width="400"/>
+
+   <img src="screen-docs/gif/W5-S6.gif" alt="Soal 6" width="400"/>
+
+---
+
+### Praktikum 4
+#### Soal 7
+- Hasil <br />
+   <img src="screen-docs/gif/W5-S7.gif" alt="Soal 7" width="400"/>
+
+
+#### Soal 8
+- Langkah 1 (FutureGroup) perlu import dari 'asnync' package, bisa dinamis karena add per-item, perlu menambahkan add + close, fleksibel dan cocok untuk looping
+- Langkah 4 (Future.wait), itu Native (langsung dri dart), Fixed/ list di awal, langsung pass list, simpel dan cepat.
+
+---
+
+### Praktikum 5
+#### Soal 9
+
+
+#### Soal 10
+
+
