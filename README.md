@@ -80,5 +80,8 @@ Tapi kalau terjadi error saat eksekusi, program akan langsung "lompat" ke blok c
 
 
 #### Soal 10
+- Langkah 1, Perlu '.catchError()' saat dipanggil, kurang fleksibel, dan ketika selesai dijalankan harus pakai 'whenComplete()'
+- Langkah 4, Menangani eror di dalam fungsi langsung, lebih fleksibel, ketika kode telah selesai dijalankan gunakan 'finally' langsung di dalam fungsi
+  <img src="screen-docs/gif/W5-S10.gif" alt="Soal 10" width="400"/>
 
 

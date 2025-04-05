@@ -47,16 +47,18 @@ class _FuturePageState extends State<FuturePage> {
               ElevatedButton(
                   onPressed: () {
                     // Praktikum 5
-                    returnError().then((value) {
-                      setState(() {
-                        result = 'sukses';
-                      });
-                    }).catchError((onError){
-                      setState(() {
-                        result = onError.toString();
-                      });
-                    // ignore: avoid_print
-                    }).whenComplete(() => print('Kelar nih'));
+                    handleError();
+
+                    // returnError().then((value) {
+                    //   setState(() {
+                    //     result = 'sukses';
+                    //   });
+                    // }).catchError((onError){
+                    //   setState(() {
+                    //     result = onError.toString();
+                    //   });
+                    // // ignore: avoid_print
+                    // }).whenComplete(() => print('Kelar nih'));
 
                     // Praktikum 4
                     // returnFG();
@@ -181,4 +183,19 @@ class _FuturePageState extends State<FuturePage> {
     await Future.delayed(Duration(seconds: 1));
     throw Exception('Error nehh!!!');
   }
+
+  Future handleError() async {
+    try {
+      await returnError();
+    } catch (e) {
+      setState(() {
+        result = e.toString();
+      });
+    }
+    finally{
+      // ignore: avoid_print
+      print('COMPLETE!!!');
+    }
+  }
+  
 }
