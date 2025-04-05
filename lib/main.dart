@@ -37,7 +37,7 @@ class _FuturePageState extends State<FuturePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Future Page'),
+          title: Text('Future Page Fadhlan'),
         ),
         body: Center(
           child: Column(
@@ -55,7 +55,7 @@ class _FuturePageState extends State<FuturePage> {
 
   Future<http.Response> getData() async {
     const authority = 'www.googleapis.com';
-    const path = '.books/v1/volumes/oFUEAAAAMBAJ';
+    const path = '/books/v1/volumes/oFUEAAAAMBAJ';
     Uri url = Uri.https(authority, path);
     return http.get(url);
   }
